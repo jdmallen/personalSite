@@ -1,9 +1,9 @@
 /*! HTML5 Boilerplate v5.1.0 | MIT License | https://html5boilerplate.com/ */
 /* As hex codes */
-/* Main Primary color */
-/* Main Secondary color (1) */
-/* Main Secondary color (2) */
-/* Main Complement color */
+/* Main Primary color (blues) */
+/* Main Secondary color (greens) (1) */
+/* Main Secondary color (orange) (2) */
+/* Main Complement color (gold) */
 /* As RGBa codes */
 /* Main Primary color */
 /* Main Secondary color (1) */
@@ -20,7 +20,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 html {
-  color: #222;
+  color: #333;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -100,17 +100,22 @@ textarea {
   color: #eee;
 }
 .masthead-text h1 {
-  margin-top: 0px;
+  margin-top: 0;
   font-size: 5em;
-  text-shadow: -2px -2px 0px rgba(0, 0, 0, 0.2);
+  text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.2);
 }
 .masthead-text h2 {
   font-size: 2em;
-  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.2);
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2);
 }
 .navbar {
-  margin-bottom: 0px !important;
-  border-radius: 0px;
+  margin-bottom: 0 !important;
+  border-radius: 0;
+}
+#introSection {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 685px;
 }
 /* ==========================================================================
    Helper classes
